@@ -31,6 +31,7 @@
 		"node": ">=16"
 	},
 	"devDependencies": {
+		"@arco-design/web-vue": "^2.44.4",
 		"@intlify/vite-plugin-vue-i18n": "^7.0.0",
 		"@types/ityped": "^1.0.1",
 		"@types/node": "^18.15.10",
@@ -102,5 +103,8 @@
 	},
 	"lint-staged": {
 		"*.{js,jsx,vue}": "eslint --cache --fix"
+	},
+	"dependencies": {
+		"arco-design": "^1.0.0"
 	}
 }

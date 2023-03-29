@@ -6,3 +6,7 @@
 
 <br />
 <br />
+
+### 设计规范
+- 主打色 #de3b3e  ![#de3b3e](./public/docs/main-color.png)
+- 
