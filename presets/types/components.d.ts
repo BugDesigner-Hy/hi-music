@@ -9,15 +9,22 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AAvatar: typeof import('@arco-design/web-vue')['Avatar']
+    ABadge: typeof import('@arco-design/web-vue')['Badge']
     AButton: typeof import('@arco-design/web-vue')['Button']
+    ADivider: typeof import('@arco-design/web-vue')['Divider']
+    AInputSearch: typeof import('@arco-design/web-vue')['InputSearch']
     ALayout: typeof import('@arco-design/web-vue')['Layout']
     ALayoutContent: typeof import('@arco-design/web-vue')['LayoutContent']
     ALayoutFooter: typeof import('@arco-design/web-vue')['LayoutFooter']
     ALayoutHeader: typeof import('@arco-design/web-vue')['LayoutHeader']
     ALayoutSider: typeof import('@arco-design/web-vue')['LayoutSider']
+    ASpace: typeof import('@arco-design/web-vue')['Space']
     Counter: typeof import('./../../src/components/counter.vue')['default']
     Footer: typeof import('./../../src/components/footer.vue')['default']
     Header: typeof import('./../../src/components/header.vue')['default']
+    'IIon:mdMicrophone': typeof import('~icons/ion/md-microphone')['default']
+    'IMingcute:microphoneLine': typeof import('~icons/mingcute/microphone-line')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Sider: typeof import('./../../src/components/sider.vue')['default']
