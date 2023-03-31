@@ -1,5 +1,5 @@
 <template>
-	<div class="flex justify-between items-center h-80px">
+	<div class="flex justify-between items-center h-80px cursor-pointer">
 		<div class="song-content flex items-center">
 			<a-avatar trigger-type="mask" shape="square" :size="55" class="m-4">
 				<img
@@ -10,7 +10,7 @@
 					<icon-up />
 				</template>
 			</a-avatar>
-			<div class="flex-col items-center justify-center">
+			<div class="flex-col items-center justify-center cursor-pointer">
 				<div class="song-name text-lg font-sans">
 					我记得
 					<icon-heart class="text-xl !text-gray-600 !hover:text-dark-900" />

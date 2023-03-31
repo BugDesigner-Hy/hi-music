@@ -1,6 +1,6 @@
 <template>
 	<a-layout
-		class="w-80vw h-90vh center border border-gray-200 min-w-78rem min-h-40rem"
+		class="w-80vw h-90vh center border border-gray-200 min-w-78rem min-h-40rem cursor-pointer"
 	>
 		<a-layout-header class="h-70px w-100% bg-primary rounded-t">
 			<Header />
