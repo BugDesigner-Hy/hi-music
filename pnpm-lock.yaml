@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@arco-design/web-vue': ^2.44.4
+  '@iconify-json/ic': ^1.1.13
   '@iconify-json/ion': ^1.1.9
   '@iconify-json/mingcute': ^1.1.5
   '@intlify/vite-plugin-vue-i18n': ^7.0.0
@@ -65,6 +66,7 @@ dependencies:
 
 devDependencies:
   '@arco-design/web-vue': registry.npmmirror.com/@arco-design/web-vue/2.44.4_vue@3.2.47
+  '@iconify-json/ic': registry.npmmirror.com/@iconify-json/ic/1.1.13
   '@iconify-json/ion': registry.npmmirror.com/@iconify-json/ion/1.1.9
   '@iconify-json/mingcute': registry.npmmirror.com/@iconify-json/mingcute/1.1.5
   '@intlify/vite-plugin-vue-i18n': 7.0.0_vite@4.2.1+vue-i18n@9.2.2
@@ -5807,6 +5809,14 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  registry.npmmirror.com/@iconify-json/ic/1.1.13:
+    resolution: {integrity: sha512-5i5zal/VRwTrs99iMTnG1Zu97bgX9Mkiu9TzR1U1rHBylUnBW+HkOweoQVEPgQITGG024/lNbZxU+3Aa2xuDww==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify-json/ic/-/ic-1.1.13.tgz}
+    name: '@iconify-json/ic'
+    version: 1.1.13
+    dependencies:
+      '@iconify/types': registry.npmmirror.com/@iconify/types/2.0.0
+    dev: true
 
   registry.npmmirror.com/@iconify-json/ion/1.1.9:
     resolution: {integrity: sha512-0LCnmt2DOV9XkKEnDhfOxU2ejZfrNLErczdJ6ONQvqpXoh9yeZIsPa2YILdF6cMuxCRqxVuU8BAdpUrNy+j1ng==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify-json/ion/-/ion-1.1.9.tgz}

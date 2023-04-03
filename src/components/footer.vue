@@ -1,7 +1,7 @@
 <template>
-	<div class="flex justify-between items-center h-80px cursor-pointer">
+	<div class="grid grid-cols-3 h-80px cursor-pointer">
 		<div class="song-content flex items-center">
-			<a-avatar trigger-type="mask" shape="square" :size="55" class="m-4">
+			<a-avatar trigger-type="mask" shape="square" class="m-4">
 				<img
 					alt="avatar"
 					src="https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp"
@@ -18,8 +18,10 @@
 				<div class="singer font-sans">赵雷</div>
 			</div>
 		</div>
-		<div class="control flex-col justify-center">
-			<div class="control-icon-wrapper mb-2 flex items-center justify-center">
+		<div class="control flex-col justify-center items-center">
+			<div
+				class="control-icon-wrapper mb-1 mt-2 flex items-center justify-center"
+			>
 				<icon-redo class="control-icon" />
 				<icon-skip-previous-fill class="control-icon" />
 				<icon-play-arrow class="!text-4xl control-icon" />
@@ -31,7 +33,7 @@
 				<a-progress :percent="percent" :show-text="false" color="#de3b3e" />
 			</div>
 		</div>
-		<div class="option-tool-wrapper flex items-center pr-2">
+		<div class="option-tool-wrapper h-80px flex justify-end items-center pr-2">
 			<div
 				class="text-[#de3b3e] text-base border border-[#de3b3e] rounded-sm pr-2px pl-2px font-sans tracking-wider"
 			>

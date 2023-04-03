@@ -9,7 +9,7 @@
 			<a-layout-sider :width="200">
 				<Sider />
 			</a-layout-sider>
-			<a-layout-content>
+			<a-layout-content class="max-h-46rem">
 				<router-view />
 			</a-layout-content>
 		</a-layout>
