@@ -4,10 +4,10 @@
 		<Carousel />
 		<RecommendPlaylist />
 		<HotPodcast />
-		<ListenBook />
+		<!-- <ListenBook />
 		<ExclusivePost />
 		<NewestMusic />
-		<RecommendMv />
+		<RecommendMv /> -->
 	</div>
 </template>
 

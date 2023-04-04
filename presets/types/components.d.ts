@@ -15,6 +15,7 @@ declare module '@vue/runtime-core' {
     ACarousel: typeof import('@arco-design/web-vue')['Carousel']
     ACarouselItem: typeof import('@arco-design/web-vue')['CarouselItem']
     ADivider: typeof import('@arco-design/web-vue')['Divider']
+    ADrawer: typeof import('@arco-design/web-vue')['Drawer']
     AImage: typeof import('@arco-design/web-vue')['Image']
     AInputSearch: typeof import('@arco-design/web-vue')['InputSearch']
     ALayout: typeof import('@arco-design/web-vue')['Layout']
