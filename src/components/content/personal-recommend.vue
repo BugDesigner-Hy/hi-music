@@ -3,7 +3,7 @@
 	<div class="flex-col justify-start m-2">
 		<Carousel />
 		<RecommendPlaylist />
-		<HotPodcast />
+		<!-- <HotPodcast /> -->
 		<!-- <ListenBook />
 		<ExclusivePost />
 		<NewestMusic />

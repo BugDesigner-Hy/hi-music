@@ -33,6 +33,7 @@ declare module '@vue/runtime-core' {
     FindMusic: typeof import('./../../src/components/find-music.vue')['default']
     Footer: typeof import('./../../src/components/footer.vue')['default']
     Header: typeof import('./../../src/components/header.vue')['default']
+    HiImage: typeof import('./../../src/components/hi-image/hi-image.vue')['default']
     HotPodcast: typeof import('./../../src/components/content/personalRecommend/hot-podcast.vue')['default']
     'IIc:roundPlayCircleOutline': typeof import('~icons/ic/round-play-circle-outline')['default']
     'IIon:mdMicrophone': typeof import('~icons/ion/md-microphone')['default']
