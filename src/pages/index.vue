@@ -8,16 +8,24 @@
 			type="line"
 			class="m-2 font-sans tracking-wider"
 		>
-			<a-tab-pane key="1" title="个性推荐"> <PersonalRecommend /> </a-tab-pane>
-			<a-tab-pane key="2" title="专属定制"> <MyCustomization /> </a-tab-pane>
-			<a-tab-pane key="3" title="歌单"> <SongList /> </a-tab-pane>
-			<a-tab-pane key="4" title="排行榜"> <RankingList /> </a-tab-pane>
-			<a-tab-pane key="5" title="歌手"> <SingerList /> </a-tab-pane>
+			<a-tab-pane key="1" title="个性推荐">
+				<personal-recommend />
+			</a-tab-pane>
+			<a-tab-pane key="2" title="专属定制"> <my-customization /> </a-tab-pane>
+			<a-tab-pane key="3" title="歌单"> <song-list /> </a-tab-pane>
+			<a-tab-pane key="4" title="排行榜"> <ranking-list /> </a-tab-pane>
+			<a-tab-pane key="5" title="歌手"> <singer-list /> </a-tab-pane>
 		</a-tabs>
 	</div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import PersonalRecommend from './personal-recommend/index.vue'
+import MyCustomization from './my-customization.vue'
+import SongList from './song-list.vue'
+import RankingList from './ranking-list.vue'
+import SingerList from './singer-list.vue'
+</script>
 
 <style scoped>
 :deep(.arco-tabs-tab-active) {

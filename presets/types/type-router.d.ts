@@ -37,7 +37,19 @@ declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/[...notFound]': RouteRecordInfo<'/[...notFound]', '/:notFound(.*)', { notFound: ParamValue<true> }, { notFound: ParamValue<false> }>,
-    '/about': RouteRecordInfo<'/about', '/about', Record<never, never>, Record<never, never>>,
+    '/my-customization': RouteRecordInfo<'/my-customization', '/my-customization', Record<never, never>, Record<never, never>>,
+    '/newest': RouteRecordInfo<'/newest', '/newest', Record<never, never>, Record<never, never>>,
+    '/personal-recommend/': RouteRecordInfo<'/personal-recommend/', '/personal-recommend', Record<never, never>, Record<never, never>>,
+    '/personal-recommend/carousel': RouteRecordInfo<'/personal-recommend/carousel', '/personal-recommend/carousel', Record<never, never>, Record<never, never>>,
+    '/personal-recommend/exclusive-post': RouteRecordInfo<'/personal-recommend/exclusive-post', '/personal-recommend/exclusive-post', Record<never, never>, Record<never, never>>,
+    '/personal-recommend/hot-podcast': RouteRecordInfo<'/personal-recommend/hot-podcast', '/personal-recommend/hot-podcast', Record<never, never>, Record<never, never>>,
+    '/personal-recommend/listen-book': RouteRecordInfo<'/personal-recommend/listen-book', '/personal-recommend/listen-book', Record<never, never>, Record<never, never>>,
+    '/personal-recommend/newest-music': RouteRecordInfo<'/personal-recommend/newest-music', '/personal-recommend/newest-music', Record<never, never>, Record<never, never>>,
+    '/personal-recommend/recommend-mv': RouteRecordInfo<'/personal-recommend/recommend-mv', '/personal-recommend/recommend-mv', Record<never, never>, Record<never, never>>,
+    '/personal-recommend/recommend-playlist': RouteRecordInfo<'/personal-recommend/recommend-playlist', '/personal-recommend/recommend-playlist', Record<never, never>, Record<never, never>>,
+    '/ranking-list': RouteRecordInfo<'/ranking-list', '/ranking-list', Record<never, never>, Record<never, never>>,
+    '/singer-list': RouteRecordInfo<'/singer-list', '/singer-list', Record<never, never>, Record<never, never>>,
+    '/song-list': RouteRecordInfo<'/song-list', '/song-list', Record<never, never>, Record<never, never>>,
   }
 }
 

@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div ref="hiImageRef" class="relative" :style="imageStyle">
-			<img :src="imageSrc" :style="imageStyle" class="rounded-lg" />
+			<img :src="imageSrc" :style="imageStyle" class="rounded-lg w-20%" />
 			<div
 				v-if="showPlayNum"
 				:style="playNumStyle"
