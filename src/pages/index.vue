@@ -21,7 +21,7 @@
 
 <script setup lang="ts">
 import PersonalRecommend from './personal-recommend/index.vue'
-import MyCustomization from './my-customization.vue'
+import MyCustomization from './my-customization/my-customization.vue'
 import SongList from './song-list.vue'
 import RankingList from './ranking-list.vue'
 import SingerList from './singer-list.vue'
