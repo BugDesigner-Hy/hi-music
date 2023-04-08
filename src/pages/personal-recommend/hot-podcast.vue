@@ -10,6 +10,7 @@
 					width="80px"
 					height="80px"
 					:show-play-icon="true"
+					play-icon-position="br"
 					show-play-icon-type="hover"
 				>
 					<template #second>

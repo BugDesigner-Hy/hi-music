@@ -8,4 +8,5 @@ export interface Props {
 	showPlayIconType: 'hover' | 'always'
 	primaryText: string
 	playIconStyle?: StyleValue
+	playIconPosition?: 'tl' | 'tr' | 'bl' | 'br' | 'center'
 }

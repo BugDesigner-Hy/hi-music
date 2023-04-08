@@ -4,10 +4,10 @@
 		<carousel />
 		<RecommendPlaylist />
 		<HotPodcast />
-		<!-- <ListenBook />
+		<ListenBook />
 		<ExclusivePost />
 		<NewestMusic />
-		<RecommendMv /> -->
+		<RecommendMv />
 	</div>
 </template>
 
@@ -15,6 +15,10 @@
 import carousel from './carousel.vue'
 import RecommendPlaylist from './recommend-playlist.vue'
 import HotPodcast from './hot-podcast.vue'
+import ListenBook from './listen-book.vue'
+import ExclusivePost from './exclusive-post.vue'
+import NewestMusic from './newest-music.vue'
+import RecommendMv from './recommend-mv.vue'
 </script>
 
 <style scoped></style>

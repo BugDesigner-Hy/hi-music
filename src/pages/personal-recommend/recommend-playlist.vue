@@ -6,6 +6,7 @@
 			<div v-for="i in 10" :key="i">
 				<HiImage
 					:image-src="src"
+					:image-scale="true"
 					width="190px"
 					height="190px"
 					:show-play-num="i != 1"
@@ -15,6 +16,7 @@
 					top-drawer-text="根据您的音乐口味生成每日更新"
 					buttom-text="每日歌曲推荐"
 					:play-icon-style="{}"
+					play-icon-position="br"
 					:play-num-style="{}"
 					show-play-icon-type="hover"
 				/>
