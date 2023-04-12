@@ -6,7 +6,7 @@
 			animation
 			size="large"
 			type="line"
-			class="m-2 font-sans tracking-wider"
+			class="m-2 mt-0 font-sans tracking-wider"
 		>
 			<a-tab-pane key="1" title="个性推荐">
 				<personal-recommend />
@@ -33,5 +33,12 @@ import SingerList from './singer-list.vue'
 }
 :deep(.arco-tabs-nav-ink) {
 	@apply bg-[#de3b3e];
+}
+:deep(.arco-tabs-nav) {
+	@apply fixed z-10 bg-white;
+	width: -webkit-fill-available;
+}
+:deep(.arco-tabs-content) {
+	@apply mt-10 overflow-hidden;
 }
 </style>

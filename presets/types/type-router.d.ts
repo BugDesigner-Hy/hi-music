@@ -37,6 +37,7 @@ declare module 'vue-router/auto/routes' {
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/[...notFound]': RouteRecordInfo<'/[...notFound]', '/:notFound(.*)', { notFound: ParamValue<true> }, { notFound: ParamValue<false> }>,
+    '/my-customization/my-customization': RouteRecordInfo<'/my-customization/my-customization', '/my-customization/my-customization', Record<never, never>, Record<never, never>>,
     '/newest': RouteRecordInfo<'/newest', '/newest', Record<never, never>, Record<never, never>>,
     '/personal-recommend/': RouteRecordInfo<'/personal-recommend/', '/personal-recommend', Record<never, never>, Record<never, never>>,
     '/personal-recommend/carousel': RouteRecordInfo<'/personal-recommend/carousel', '/personal-recommend/carousel', Record<never, never>, Record<never, never>>,

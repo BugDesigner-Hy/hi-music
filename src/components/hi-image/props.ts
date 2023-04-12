@@ -2,7 +2,7 @@ import { StyleValue } from 'vue'
 
 export interface Props {
 	imageSrc: string
-	imageScale: boolean
+	imageScale?: boolean
 	width?: string
 	height?: string
 	showPlayNum?: boolean

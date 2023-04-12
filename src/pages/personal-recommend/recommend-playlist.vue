@@ -5,7 +5,7 @@
 		<div class="grid grid-cols-5 gap-x-7 gap-y-5 mr-2">
 			<div v-for="i in 10" :key="i">
 				<HiImage
-					:image-src="src"
+					:image-src="images[i % 3]"
 					:image-scale="true"
 					width="190px"
 					height="190px"
@@ -26,8 +26,7 @@
 </template>
 
 <script setup lang="ts">
-const src =
-	'https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/a8c8cdb109cb051163646151a4a5083b.png~tplv-uwbnlip3yd-webp.webp'
+import { images } from '~/api/images'
 </script>
 
 <style scoped></style>

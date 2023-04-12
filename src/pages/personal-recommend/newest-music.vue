@@ -5,7 +5,7 @@
 		<div class="grid grid-cols-3 gap-y-3 gap-x-5">
 			<div v-for="i in 11" :key="i">
 				<hi-image-bar
-					:image-src="src"
+					:image-src="squareImages[i % 3]"
 					primary-text="我的战争"
 					width="60px"
 					height="60px"
@@ -36,8 +36,7 @@
 </template>
 
 <script setup lang="ts">
-const src =
-	'https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/a8c8cdb109cb051163646151a4a5083b.png~tplv-uwbnlip3yd-webp.webp'
+import { squareImages } from '~/api/images'
 </script>
 
 <style scoped></style>

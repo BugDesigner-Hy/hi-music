@@ -1,7 +1,7 @@
 <template>
 	<div
 		ref="hiImageBarRef"
-		class="flex rounded-md"
+		class="hi-image-bar flex rounded-md"
 		:class="{ 'bg-gray-200': isHovered }"
 	>
 		<div class="relative">
